@@ -1,0 +1,37 @@
+{
+  "name": "Fim do Mês",
+  "short_name": "Fim do Mês",
+  "description": "Organize seu dinheiro e veja como ele chega no fim do mês.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#12121C",
+  "theme_color": "#12121C",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    { "src": "./icone-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icone-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "./icone-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Lançar agora",
+      "short_name": "Lançar",
+      "description": "Registrar uma entrada ou saída",
+      "url": "./index.html?acao=lancar",
+      "icons": [{ "src": "./icone-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contas fixas",
+      "short_name": "Fixas",
+      "description": "Ver o que ainda vence neste mês",
+      "url": "./index.html?tela=fixas",
+      "icons": [{ "src": "./icone-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
