@@ -1,7 +1,7 @@
 /* Fim do Mês — service worker
    Guarda o app inteiro no aparelho para funcionar sem internet.
    Ao publicar uma versão nova, troque o número em VERSAO. */
-const VERSAO = 'fim-do-mes-v2';
+const VERSAO = 'fim-do-mes-v3';
 const ARQUIVOS = [
   './',
   './index.html',
